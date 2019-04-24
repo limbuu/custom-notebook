@@ -33,6 +33,21 @@ def get_custom_frontend_exporters():
 
 ## test notebook progress handler
 class FuseProgressHandler(tornado.web.RequestHandler):
+
+    ### add cors
+    def set_default_headers(self):
+        print('set headers!!')
+        self.set_header('Access-Control-Allow-Origin', '*')
+        self.set_header('Access-Control-Allow-Headers', '*')
+        self.set_header('Access-Control-Max-Age', 1000)
+        self.set_header('Content-type', 'application/json')
+        self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
+        self.set_header('Access-Control-Allow-Headers',
+                        'Content-Type, Access-Control-Allow-Origin, Access-Control-Allow-Headers, X-Requested-By, Access-Control-Allow-Methods')
+
+    def OPTIONS(self):
+        pass
+
     ## post the progess
     def post(self):
     # progress urls constants prod and stage
@@ -119,12 +134,15 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
         value = self.get_argument('value')  ## Assignment/Project Name
         type = self.get_argument('type')  ## Either Assignment or Project
         email = self.get_argument('email')
+        correct = self.get_argument('correct')
+        score = self.get_argument('score')
+        totalScore = self.get_argument('totalScore')
         ## send the assignment score to the fuse.ai
         payload = {'email': email,
                     'Status': 'Inprogress',
-                     'score': 10,
-                     'totalScore': 100,
-                     'correct': 'true',
+                     'score': score,
+                     'totalScore': totalScore,
+                     'correct': correct,
                      'name': value }
 
         print("The payload for fuse.ai SUBMIT API is: ")
