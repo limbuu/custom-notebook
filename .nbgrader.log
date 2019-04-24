@@ -1,0 +1,255 @@
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Submitted assignments:
+[NotebookApp | INFO] course1 manshi module4-project 2019-01-24 08:45:29.289367 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:31:13.992843 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:23.219583 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:25.815084 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:53:28.487796 UTC
+[NotebookApp | INFO] course1 manshi test 2019-01-23 14:37:06.429379 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:07:10.401646 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:04.446682 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:14.293195 UTC
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Submitted assignments:
+[NotebookApp | INFO] course1 manshi module4-project 2019-01-24 08:45:29.289367 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:31:13.992843 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:23.219583 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:25.815084 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:53:28.487796 UTC
+[NotebookApp | INFO] course1 manshi test 2019-01-23 14:37:06.429379 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:07:10.401646 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:04.446682 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:14.293195 UTC
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | WARNING] 404 GET /nbgrade/source/module4-project (127.0.0.1) 35.85ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | WARNING] 404 GET /nbgrade/source/test-assignment (127.0.0.1) 2.23ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | WARNING] 404 GET /nbgrade/source/module4-project (127.0.0.1) 4.71ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Removing released assignments:
+[NotebookApp | INFO] course1 module4-project
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | WARNING] 404 GET /nbgrade/source/test-assignment (127.0.0.1) 37.58ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] Kernel started: 7912740c-02b9-42a8-b523-864ee2f5389c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 7912740c-02b9-42a8-b523-864ee2f5389c
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 7912740c-02b9-42a8-b523-864ee2f5389c
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | WARNING] 404 GET /nbgrade/source/test-assignment (127.0.0.1) 9.01ms referer=http://localhost:8888/formgrader
+[NotebookApp | WARNING] 404 GET /nbgrade/source/module4-project (127.0.0.1) 1.68ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Submitted assignments:
+[NotebookApp | INFO] course1 manshi module4-project 2019-01-24 08:45:29.289367 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:31:13.992843 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:23.219583 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:25.815084 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:53:28.487796 UTC
+[NotebookApp | INFO] course1 manshi test 2019-01-23 14:37:06.429379 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:07:10.401646 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:04.446682 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:14.293195 UTC
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Submitted assignments:
+[NotebookApp | INFO] course1 manshi module4-project 2019-01-24 08:45:29.289367 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:31:13.992843 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:23.219583 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:25.815084 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:53:28.487796 UTC
+[NotebookApp | INFO] course1 manshi test 2019-01-23 14:37:06.429379 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:07:10.401646 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:04.446682 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:14.293195 UTC
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | WARNING] 404 GET /nbgrade/source/test-two (127.0.0.1) 41.51ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | WARNING] 404 GET /nbgrade/source/test-two (127.0.0.1) 10.41ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Submitted assignments:
+[NotebookApp | INFO] course1 manshi module4-project 2019-01-24 08:45:29.289367 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:31:13.992843 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:23.219583 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:25.815084 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:53:28.487796 UTC
+[NotebookApp | INFO] course1 manshi test 2019-01-23 14:37:06.429379 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:07:10.401646 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:04.446682 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:14.293195 UTC
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Submitted assignments:
+[NotebookApp | INFO] course1 manshi module4-project 2019-01-24 08:45:29.289367 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:31:13.992843 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:23.219583 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:39:25.815084 UTC
+[NotebookApp | INFO] course1 manshi test 2018-10-11 04:53:28.487796 UTC
+[NotebookApp | INFO] course1 manshi test 2019-01-23 14:37:06.429379 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:07:10.401646 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:04.446682 UTC
+[NotebookApp | INFO] course1 manshi test3 2019-01-23 15:10:14.293195 UTC
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | INFO] Released assignments:
+[NotebookApp | WARNING] 404 GET /nbgrade/source/test-assignment (127.0.0.1) 12.87ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] Clearing invalid/expired login cookie username-localhost-8888
+[NotebookApp | WARNING] Clearing invalid/expired login cookie username-localhost-8888
+[NotebookApp | INFO] 302 GET /tree (127.0.0.1) 3.72ms
+[NotebookApp | INFO] 302 POST /login?next=%2Ftree (127.0.0.1) 5.66ms
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Kernel started: 9ea7586e-2824-4c21-88db-d14832a160a6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9ea7586e-2824-4c21-88db-d14832a160a6
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 9ea7586e-2824-4c21-88db-d14832a160a6
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/9ea7586e-2824-4c21-88db-d14832a160a6/channels?session_id=8d978a9871004371982d350ab0e5b26d (127.0.0.1): Kernel does not exist: 9ea7586e-2824-4c21-88db-d14832a160a6
+[NotebookApp | WARNING] 404 GET /api/kernels/9ea7586e-2824-4c21-88db-d14832a160a6/channels?session_id=8d978a9871004371982d350ab0e5b26d (127.0.0.1) 55.29ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 9ea7586e-2824-4c21-88db-d14832a160a6:8d978a9871004371982d350ab0e5b26d
+[NotebookApp | INFO] Kernel started: df526a31-8de6-4b73-9f93-f42efb88feb5
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel df526a31-8de6-4b73-9f93-f42efb88feb5
+[NotebookApp | INFO] Saving file at /Untitled.ipynb
+[NotebookApp | INFO] Saving file at /Untitled.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: df526a31-8de6-4b73-9f93-f42efb88feb5
