@@ -8,6 +8,7 @@ import os
 from tornado import web
 from tornado.httpclient import HTTPRequest,HTTPResponse,HTTPError
 import tornado
+from tornado import log
 import requests
 import json
 HTTPError = web.HTTPError
@@ -33,7 +34,6 @@ def get_custom_frontend_exporters():
 
 ## test notebook progress handler
 class FuseProgressHandler(tornado.web.RequestHandler):
-
     ### add cors
     def set_default_headers(self):
         print('set headers!!')
@@ -139,7 +139,7 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
         totalScore = self.get_argument('totalScore')
         ## send the assignment score to the fuse.ai
         payload = {'email': email,
-                    'Status': 'Inprogress',
+                    'status': 'progress',
                      'score': score,
                      'totalScore': totalScore,
                      'correct': correct,
@@ -169,9 +169,11 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
         print('Payload:  ', payload)
         print('Assignment URL ', url_assignment)
         if value == 'Project':
-            response = requests.post(url_project, payload)
+            response = requests.post(url_project, json=payload, headers=headers)
         elif value == 'Assignment':
-            response = requests.post(url_assignment, payload)
+            print("##########################################")
+            print("Dont forget it is assignment!")
+            response = requests.post(url_assignment, json=payload,headers=headers)
         else:
             response = {'message': 'It is playground-practice notebook!'}
         print('The submit API response is: ',json.loads(response.text))

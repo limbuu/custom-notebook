@@ -393,7 +393,8 @@ data-notebook-path="{{notebook_path | urlencode}}"
         return cookies;
     }
     // progress API
-    function validateandsubmit(){
+    window.onload = progress();
+    function progress(){
     console.log("You can see the validate and submit button now");
     alert("You have submitted now")
     var cookies = parse_cookies();
@@ -412,7 +413,7 @@ data-notebook-path="{{notebook_path | urlencode}}"
         form.append('environment','stage');
         form.append('value','Module2-Unit1');
         form.append('type','Assignment');
-        http.open('POST',url);
+        http.open('POST',url,true);
         http.withCredentials = true;
         http.setRequestHeader('X-CSRFToken',cookies._xsrf);
         response = http.send(form);
@@ -429,7 +430,7 @@ data-notebook-path="{{notebook_path | urlencode}}"
     };
 
     // Submit API
-    function submit(){
+    function validateandsubmit(){
         console.log('Inside validate and submit function')
         var http = new XMLHttpRequest();
         url = '/submitfuse'
@@ -439,7 +440,7 @@ data-notebook-path="{{notebook_path | urlencode}}"
         form.append('environment','stage');
         form.append('type','Assignment');
         form.append('value','Module2-Unit1');
-        form.append('email','limbuu116@gmail.com');
+        form.append('email','assignment5@mailinator.com');
         form.append('status','Inprogress');
         form.append('score', 1);
         form.append('totalScore',10);
