@@ -416,11 +416,12 @@ data-notebook-path="{{notebook_path | urlencode}}"
         http.open('POST',url,true);
         http.withCredentials = true;
         http.setRequestHeader('X-CSRFToken',cookies._xsrf);
-        response = http.send(form);
-        console.log('Response is ',response)
+        http.send(form);
         http.onreadystatechange = function(){
-            console.log(http.responseType)
             if(http.status===200){
+                console.log('The response is: ')
+                console.log(http.responseText)
+                console.log(http.responseType)
                 console.log('Progesss API hit on Fuse.ai')
             }else{
                 console.log('Couldnt hit Progress API in fuse.ai')
@@ -451,6 +452,9 @@ data-notebook-path="{{notebook_path | urlencode}}"
         http.send(form);
         http.onreadystatechange=function(){
             if(http.status===200){
+                console.log('The response is: ')
+                console.log(http.responseText)
+                console.log(http.responseType)
                 console.log('assignment is submitted successfully');
             }else{
                 console.log('Sorry, assignment couldnt be submitted successfully')

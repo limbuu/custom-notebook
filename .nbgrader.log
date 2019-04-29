@@ -637,3 +637,1183 @@
 [NotebookApp | INFO] Starting buffering for ec0453cb-3316-43ac-a931-3c141b7199a5:b4e3ac5b92a64168815503c27dc0bc5c
 [NotebookApp | INFO] Adapting to protocol v5.1 for kernel ec0453cb-3316-43ac-a931-3c141b7199a5
 [NotebookApp | INFO] Restoring connection for ec0453cb-3316-43ac-a931-3c141b7199a5:b4e3ac5b92a64168815503c27dc0bc5c
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] Clearing invalid/expired login cookie username-localhost-8888
+[NotebookApp | WARNING] Clearing invalid/expired login cookie username-localhost-8888
+[NotebookApp | INFO] 302 GET /tree (127.0.0.1) 4.36ms
+[NotebookApp | INFO] 302 POST /login?next=%2Ftree (127.0.0.1) 2.40ms
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 54.61ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.72ms referer=None
+[NotebookApp | INFO] Kernel started: 9eb92823-a511-48ae-8d29-7288146248be
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9eb92823-a511-48ae-8d29-7288146248be
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 9eb92823-a511-48ae-8d29-7288146248be
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/9eb92823-a511-48ae-8d29-7288146248be/channels?session_id=146bb52ea5b243309b6da26a67775464 (127.0.0.1): Kernel does not exist: 9eb92823-a511-48ae-8d29-7288146248be
+[NotebookApp | WARNING] 404 GET /api/kernels/9eb92823-a511-48ae-8d29-7288146248be/channels?session_id=146bb52ea5b243309b6da26a67775464 (127.0.0.1) 84.68ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 9eb92823-a511-48ae-8d29-7288146248be:146bb52ea5b243309b6da26a67775464
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 5.73ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.37ms referer=None
+[NotebookApp | INFO] Kernel started: bad26a11-71be-4d4d-b9e9-cf3006782265
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel bad26a11-71be-4d4d-b9e9-cf3006782265
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: bad26a11-71be-4d4d-b9e9-cf3006782265
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/bad26a11-71be-4d4d-b9e9-cf3006782265/channels?session_id=86ac9826252c45b987039a375bf39a75 (127.0.0.1): Kernel does not exist: bad26a11-71be-4d4d-b9e9-cf3006782265
+[NotebookApp | WARNING] 404 GET /api/kernels/bad26a11-71be-4d4d-b9e9-cf3006782265/channels?session_id=86ac9826252c45b987039a375bf39a75 (127.0.0.1) 55.13ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: bad26a11-71be-4d4d-b9e9-cf3006782265:86ac9826252c45b987039a375bf39a75
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.34ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.01ms referer=None
+[NotebookApp | INFO] Kernel started: f653ced7-587e-46a8-aef9-423f0b60d10c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f653ced7-587e-46a8-aef9-423f0b60d10c
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: f653ced7-587e-46a8-aef9-423f0b60d10c
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/f653ced7-587e-46a8-aef9-423f0b60d10c/channels?session_id=1b48d4a042024554b74382e5b9242fb4 (127.0.0.1): Kernel does not exist: f653ced7-587e-46a8-aef9-423f0b60d10c
+[NotebookApp | WARNING] 404 GET /api/kernels/f653ced7-587e-46a8-aef9-423f0b60d10c/channels?session_id=1b48d4a042024554b74382e5b9242fb4 (127.0.0.1) 20.14ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: f653ced7-587e-46a8-aef9-423f0b60d10c:1b48d4a042024554b74382e5b9242fb4
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.96ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.20ms referer=None
+[NotebookApp | INFO] Kernel started: ccfa6c4a-b623-4a69-950f-5901165c2f96
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ccfa6c4a-b623-4a69-950f-5901165c2f96
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: ccfa6c4a-b623-4a69-950f-5901165c2f96
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 10.97ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.63ms referer=None
+[NotebookApp | INFO] Kernel started: dc9d6f79-3945-444a-9356-50fb20b9618e
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dc9d6f79-3945-444a-9356-50fb20b9618e
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: dc9d6f79-3945-444a-9356-50fb20b9618e
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/dc9d6f79-3945-444a-9356-50fb20b9618e/channels?session_id=a4b52ef37db6431b90c1f9449319920c (127.0.0.1): Kernel does not exist: dc9d6f79-3945-444a-9356-50fb20b9618e
+[NotebookApp | WARNING] 404 GET /api/kernels/dc9d6f79-3945-444a-9356-50fb20b9618e/channels?session_id=a4b52ef37db6431b90c1f9449319920c (127.0.0.1) 71.46ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: dc9d6f79-3945-444a-9356-50fb20b9618e:a4b52ef37db6431b90c1f9449319920c
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.34ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.11ms referer=None
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1): Missing argument Playground
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1) 6.18ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: d23c0e13-d548-4f84-a0f0-4149ee1de652
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d23c0e13-d548-4f84-a0f0-4149ee1de652
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: d23c0e13-d548-4f84-a0f0-4149ee1de652
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/d23c0e13-d548-4f84-a0f0-4149ee1de652/channels?session_id=0a1afcc9357145fa81baae91ff5202e1 (127.0.0.1): Kernel does not exist: d23c0e13-d548-4f84-a0f0-4149ee1de652
+[NotebookApp | WARNING] 404 GET /api/kernels/d23c0e13-d548-4f84-a0f0-4149ee1de652/channels?session_id=0a1afcc9357145fa81baae91ff5202e1 (127.0.0.1) 24.82ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: d23c0e13-d548-4f84-a0f0-4149ee1de652:0a1afcc9357145fa81baae91ff5202e1
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.80ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.55ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 122, in get_response
+        return json.loads(response.text)
+    AttributeError: 'dict' object has no attribute 'text'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarybnhhGUO8oAlH90sf",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 2165.09ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 531bdc0c-9726-4644-b98e-537f9c311a34
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 531bdc0c-9726-4644-b98e-537f9c311a34
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 531bdc0c-9726-4644-b98e-537f9c311a34
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/531bdc0c-9726-4644-b98e-537f9c311a34/channels?session_id=50c2e69a5efa4d8b866ff9ad01f8a805 (127.0.0.1): Kernel does not exist: 531bdc0c-9726-4644-b98e-537f9c311a34
+[NotebookApp | WARNING] 404 GET /api/kernels/531bdc0c-9726-4644-b98e-537f9c311a34/channels?session_id=50c2e69a5efa4d8b866ff9ad01f8a805 (127.0.0.1) 50.31ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 531bdc0c-9726-4644-b98e-537f9c311a34:50c2e69a5efa4d8b866ff9ad01f8a805
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.38ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.15ms referer=None
+[NotebookApp | INFO] Kernel started: d7b886c2-985b-48bd-a607-9bed2a88d581
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d7b886c2-985b-48bd-a607-9bed2a88d581
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: d7b886c2-985b-48bd-a607-9bed2a88d581
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/d7b886c2-985b-48bd-a607-9bed2a88d581/channels?session_id=06a769df965a444e821a60285f089bea (127.0.0.1): Kernel does not exist: d7b886c2-985b-48bd-a607-9bed2a88d581
+[NotebookApp | WARNING] 404 GET /api/kernels/d7b886c2-985b-48bd-a607-9bed2a88d581/channels?session_id=06a769df965a444e821a60285f089bea (127.0.0.1) 44.31ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: d7b886c2-985b-48bd-a607-9bed2a88d581:06a769df965a444e821a60285f089bea
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.06ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.34ms referer=None
+[NotebookApp | INFO] Kernel started: 2b7283e3-f752-4094-82ef-ea248e9a988f
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2b7283e3-f752-4094-82ef-ea248e9a988f
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 2b7283e3-f752-4094-82ef-ea248e9a988f
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/2b7283e3-f752-4094-82ef-ea248e9a988f/channels?session_id=c35c6891cc9d495b88a351a520cd2e75 (127.0.0.1): Kernel does not exist: 2b7283e3-f752-4094-82ef-ea248e9a988f
+[NotebookApp | WARNING] 404 GET /api/kernels/2b7283e3-f752-4094-82ef-ea248e9a988f/channels?session_id=c35c6891cc9d495b88a351a520cd2e75 (127.0.0.1) 53.00ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.01ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.31ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 122, in get_response
+        return json.loads(response.text)
+    AttributeError: 'dict' object has no attribute 'text'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryLJYgooDdYHrFLAaZ",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 1596.12ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 7b91d89d-6996-4db2-8b57-115ac5720059
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 7b91d89d-6996-4db2-8b57-115ac5720059
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 7b91d89d-6996-4db2-8b57-115ac5720059
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/7b91d89d-6996-4db2-8b57-115ac5720059/channels?session_id=5417739c785b48ec8ce5e97293e68c96 (127.0.0.1): Kernel does not exist: 7b91d89d-6996-4db2-8b57-115ac5720059
+[NotebookApp | WARNING] 404 GET /api/kernels/7b91d89d-6996-4db2-8b57-115ac5720059/channels?session_id=5417739c785b48ec8ce5e97293e68c96 (127.0.0.1) 53.87ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 7b91d89d-6996-4db2-8b57-115ac5720059:5417739c785b48ec8ce5e97293e68c96
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.10ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.80ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 122, in get_response
+        return json.loads(response.text)
+    AttributeError: 'set' object has no attribute 'text'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryE060sDRgDlCyLDqX",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 5204.75ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 2061c891-90ab-4dac-a965-8f525d364b4f
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2061c891-90ab-4dac-a965-8f525d364b4f
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 2061c891-90ab-4dac-a965-8f525d364b4f
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 9.76ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.74ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 122, in get_response
+        return json.loads(response.text)
+    AttributeError: 'str' object has no attribute 'text'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary6DkX1uLj9973caDY",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 1869.73ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: c1c25c6a-19e9-47d0-b6ad-cd1690e25f96
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel c1c25c6a-19e9-47d0-b6ad-cd1690e25f96
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: c1c25c6a-19e9-47d0-b6ad-cd1690e25f96
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/c1c25c6a-19e9-47d0-b6ad-cd1690e25f96/channels?session_id=48c475aa21ec419d83b43c4570f4f7ad (127.0.0.1): Kernel does not exist: c1c25c6a-19e9-47d0-b6ad-cd1690e25f96
+[NotebookApp | WARNING] 404 GET /api/kernels/c1c25c6a-19e9-47d0-b6ad-cd1690e25f96/channels?session_id=48c475aa21ec419d83b43c4570f4f7ad (127.0.0.1) 62.58ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: c1c25c6a-19e9-47d0-b6ad-cd1690e25f96:48c475aa21ec419d83b43c4570f4f7ad
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.67ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.13ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 120, in get_response
+        response = self.write('message','It is Playground')
+    TypeError: write() takes 2 positional arguments but 3 were given
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryr8ZCtN2LWk9ia1vf",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 1587.20ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 666ab698-2552-42f1-b45b-a2afb961ed8d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 666ab698-2552-42f1-b45b-a2afb961ed8d
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 666ab698-2552-42f1-b45b-a2afb961ed8d
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/666ab698-2552-42f1-b45b-a2afb961ed8d/channels?session_id=db7892b4c5814bac87725c7615f579e0 (127.0.0.1): Kernel does not exist: 666ab698-2552-42f1-b45b-a2afb961ed8d
+[NotebookApp | WARNING] 404 GET /api/kernels/666ab698-2552-42f1-b45b-a2afb961ed8d/channels?session_id=db7892b4c5814bac87725c7615f579e0 (127.0.0.1) 55.10ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.96ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.46ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 121, in get_response
+        response.text = {'message','It is palyground'}
+    AttributeError: 'dict' object has no attribute 'text'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarygnkKeRq49wLB05P0",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 1564.22ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 8bca42e5-d836-4ac6-b645-0368938a222a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8bca42e5-d836-4ac6-b645-0368938a222a
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 8bca42e5-d836-4ac6-b645-0368938a222a
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/8bca42e5-d836-4ac6-b645-0368938a222a/channels?session_id=893a2ca255514f218c91d25dc7e23230 (127.0.0.1): Kernel does not exist: 8bca42e5-d836-4ac6-b645-0368938a222a
+[NotebookApp | WARNING] 404 GET /api/kernels/8bca42e5-d836-4ac6-b645-0368938a222a/channels?session_id=893a2ca255514f218c91d25dc7e23230 (127.0.0.1) 53.12ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 8bca42e5-d836-4ac6-b645-0368938a222a:893a2ca255514f218c91d25dc7e23230
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.21ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.86ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 121, in get_response
+        response.text = {'message':'It is palyground'}
+    AttributeError: 'dict' object has no attribute 'text'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryP7omghpdc75pAsdg",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 2310.66ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 051d0cf6-836c-4151-9140-63cc480e89a7
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 051d0cf6-836c-4151-9140-63cc480e89a7
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 051d0cf6-836c-4151-9140-63cc480e89a7
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/051d0cf6-836c-4151-9140-63cc480e89a7/channels?session_id=fab9062ec1d443128d6a1537693d8b89 (127.0.0.1): Kernel does not exist: 051d0cf6-836c-4151-9140-63cc480e89a7
+[NotebookApp | WARNING] 404 GET /api/kernels/051d0cf6-836c-4151-9140-63cc480e89a7/channels?session_id=fab9062ec1d443128d6a1537693d8b89 (127.0.0.1) 46.53ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.29ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.30ms referer=None
+[NotebookApp | INFO] Kernel started: eff5c1cf-fd36-4389-a04a-fe5c2357cd04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel eff5c1cf-fd36-4389-a04a-fe5c2357cd04
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: eff5c1cf-fd36-4389-a04a-fe5c2357cd04
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/eff5c1cf-fd36-4389-a04a-fe5c2357cd04/channels?session_id=f74a798ab8c645a6a46079cdee8351b6 (127.0.0.1): Kernel does not exist: eff5c1cf-fd36-4389-a04a-fe5c2357cd04
+[NotebookApp | WARNING] 404 GET /api/kernels/eff5c1cf-fd36-4389-a04a-fe5c2357cd04/channels?session_id=f74a798ab8c645a6a46079cdee8351b6 (127.0.0.1) 68.07ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: eff5c1cf-fd36-4389-a04a-fe5c2357cd04:f74a798ab8c645a6a46079cdee8351b6
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.13ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.30ms referer=None
+[NotebookApp | INFO] Kernel started: 014eb6be-279b-4c71-8989-5226e56b2683
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 014eb6be-279b-4c71-8989-5226e56b2683
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 014eb6be-279b-4c71-8989-5226e56b2683
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/014eb6be-279b-4c71-8989-5226e56b2683/channels?session_id=0df4d68eed0147b08ae0b6242d7ab302 (127.0.0.1): Kernel does not exist: 014eb6be-279b-4c71-8989-5226e56b2683
+[NotebookApp | WARNING] 404 GET /api/kernels/014eb6be-279b-4c71-8989-5226e56b2683/channels?session_id=0df4d68eed0147b08ae0b6242d7ab302 (127.0.0.1) 30.83ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 014eb6be-279b-4c71-8989-5226e56b2683:0df4d68eed0147b08ae0b6242d7ab302
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.26ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.46ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 121, in get_response
+        response.json= {'message':'Sorry! Playground cannot be garded!'}
+    AttributeError: 'dict' object has no attribute 'json'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryAKcKnXW8IHs6qAG2",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 1421.55ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: a97c99d7-a0b0-4446-b42c-c75660060c04
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a97c99d7-a0b0-4446-b42c-c75660060c04
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: a97c99d7-a0b0-4446-b42c-c75660060c04
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/a97c99d7-a0b0-4446-b42c-c75660060c04/channels?session_id=8db62aca4499429a892eeeffd71ae474 (127.0.0.1): Kernel does not exist: a97c99d7-a0b0-4446-b42c-c75660060c04
+[NotebookApp | WARNING] 404 GET /api/kernels/a97c99d7-a0b0-4446-b42c-c75660060c04/channels?session_id=8db62aca4499429a892eeeffd71ae474 (127.0.0.1) 38.03ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.98ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.91ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 122, in get_response
+        print(response.json())
+    AttributeError: 'dict' object has no attribute 'json'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryZWYFreQVE52SPszN",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 4759.98ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: d1b7c339-8b2b-4230-8dcc-fe50481386d9
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d1b7c339-8b2b-4230-8dcc-fe50481386d9
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: d1b7c339-8b2b-4230-8dcc-fe50481386d9
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/d1b7c339-8b2b-4230-8dcc-fe50481386d9/channels?session_id=2c60c7c19e014d52808a232f15429c73 (127.0.0.1): Kernel does not exist: d1b7c339-8b2b-4230-8dcc-fe50481386d9
+[NotebookApp | WARNING] 404 GET /api/kernels/d1b7c339-8b2b-4230-8dcc-fe50481386d9/channels?session_id=2c60c7c19e014d52808a232f15429c73 (127.0.0.1) 49.01ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: d1b7c339-8b2b-4230-8dcc-fe50481386d9:2c60c7c19e014d52808a232f15429c73
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.38ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 4.00ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 80, in post
+        self.write(response_json)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 744, in write
+        raise TypeError(message)
+    TypeError: write() only accepts bytes, unicode, and dict objects
+[NotebookApp | ERROR] Cannot send error response after headers written
+[NotebookApp | INFO] Kernel started: b40cc167-c239-4e27-a4b5-d256467e2d4d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b40cc167-c239-4e27-a4b5-d256467e2d4d
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: b40cc167-c239-4e27-a4b5-d256467e2d4d
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/b40cc167-c239-4e27-a4b5-d256467e2d4d/channels?session_id=84e90fd1a59947afafb636ecc499fcb5 (127.0.0.1): Kernel does not exist: b40cc167-c239-4e27-a4b5-d256467e2d4d
+[NotebookApp | WARNING] 404 GET /api/kernels/b40cc167-c239-4e27-a4b5-d256467e2d4d/channels?session_id=84e90fd1a59947afafb636ecc499fcb5 (127.0.0.1) 57.91ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: b40cc167-c239-4e27-a4b5-d256467e2d4d:84e90fd1a59947afafb636ecc499fcb5
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.04ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.20ms referer=None
+[NotebookApp | INFO] Kernel started: 97455ee2-e557-4aa9-84c1-53c8d70cddad
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 97455ee2-e557-4aa9-84c1-53c8d70cddad
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 97455ee2-e557-4aa9-84c1-53c8d70cddad
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/97455ee2-e557-4aa9-84c1-53c8d70cddad/channels?session_id=c13192167d0c4f248046025418b3fb54 (127.0.0.1): Kernel does not exist: 97455ee2-e557-4aa9-84c1-53c8d70cddad
+[NotebookApp | WARNING] 404 GET /api/kernels/97455ee2-e557-4aa9-84c1-53c8d70cddad/channels?session_id=c13192167d0c4f248046025418b3fb54 (127.0.0.1) 40.59ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 97455ee2-e557-4aa9-84c1-53c8d70cddad:c13192167d0c4f248046025418b3fb54
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.29ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.35ms referer=None
+[NotebookApp | INFO] Kernel started: 685489d7-79c2-4510-854e-81e734d7d678
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 685489d7-79c2-4510-854e-81e734d7d678
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 685489d7-79c2-4510-854e-81e734d7d678
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/685489d7-79c2-4510-854e-81e734d7d678/channels?session_id=d499a4803fb64cf28e9325705483037d (127.0.0.1): Kernel does not exist: 685489d7-79c2-4510-854e-81e734d7d678
+[NotebookApp | WARNING] 404 GET /api/kernels/685489d7-79c2-4510-854e-81e734d7d678/channels?session_id=d499a4803fb64cf28e9325705483037d (127.0.0.1) 23.11ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 685489d7-79c2-4510-854e-81e734d7d678:d499a4803fb64cf28e9325705483037d
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.86ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.98ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+        (self._dns_host, self.port), self.timeout, **extra_kw)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+      File "/home/manshi/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    socket.gaierror: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+        chunked=chunked)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+        self._validate_conn(conn)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+        conn.connect()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+        conn = self._new_conn()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+        self, "Failed to establish a new connection: %s" % e)
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f6b6a755978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+        timeout=timeout
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+        _stacktrace=sys.exc_info()[2])
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+        raise MaxRetryError(_pool, url, error or ResponseError(cause))
+    urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f6b6a755978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 87, in get_response
+        access_token = get_accesstoken(self)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 135, in get_accesstoken
+        response = requests.post(url, data)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 116, in post
+        return request('post', url, data=data, json=json, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 60, in request
+        return session.request(method=method, url=url, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+        r = adapter.send(request, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f6b6a755978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryOoOW3hyBdkbvTQYx",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 65.97ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 42492bc2-05e1-4dff-b892-c4dcb2b7f22d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 42492bc2-05e1-4dff-b892-c4dcb2b7f22d
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 42492bc2-05e1-4dff-b892-c4dcb2b7f22d
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 10.59ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.51ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+        (self._dns_host, self.port), self.timeout, **extra_kw)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+      File "/home/manshi/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    socket.gaierror: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+        chunked=chunked)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+        self._validate_conn(conn)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+        conn.connect()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+        conn = self._new_conn()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+        self, "Failed to establish a new connection: %s" % e)
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f843828ea90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+        timeout=timeout
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+        _stacktrace=sys.exc_info()[2])
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+        raise MaxRetryError(_pool, url, error or ResponseError(cause))
+    urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f843828ea90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 87, in get_response
+        access_token = get_accesstoken(self)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 132, in get_accesstoken
+        response = requests.post(url, data)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 116, in post
+        return request('post', url, data=data, json=json, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 60, in request
+        return session.request(method=method, url=url, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+        r = adapter.send(request, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f843828ea90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryehkgqbpjwT2fvvnk",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 30.48ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 95d823f2-14ee-4c43-b727-c71f6a3b666d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 95d823f2-14ee-4c43-b727-c71f6a3b666d
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 95d823f2-14ee-4c43-b727-c71f6a3b666d
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/95d823f2-14ee-4c43-b727-c71f6a3b666d/channels?session_id=6ed63430b6ea4155899a46b7d8c58bca (127.0.0.1): Kernel does not exist: 95d823f2-14ee-4c43-b727-c71f6a3b666d
+[NotebookApp | WARNING] 404 GET /api/kernels/95d823f2-14ee-4c43-b727-c71f6a3b666d/channels?session_id=6ed63430b6ea4155899a46b7d8c58bca (127.0.0.1) 25.12ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 95d823f2-14ee-4c43-b727-c71f6a3b666d:6ed63430b6ea4155899a46b7d8c58bca
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.71ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.97ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+        (self._dns_host, self.port), self.timeout, **extra_kw)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+      File "/home/manshi/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    socket.gaierror: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+        chunked=chunked)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+        self._validate_conn(conn)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+        conn.connect()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+        conn = self._new_conn()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+        self, "Failed to establish a new connection: %s" % e)
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f197f8f0dd8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+        timeout=timeout
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+        _stacktrace=sys.exc_info()[2])
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+        raise MaxRetryError(_pool, url, error or ResponseError(cause))
+    urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f197f8f0dd8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 87, in get_response
+        access_token = get_accesstoken(self)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 134, in get_accesstoken
+        response = requests.post(url, data)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 116, in post
+        return request('post', url, data=data, json=json, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 60, in request
+        return session.request(method=method, url=url, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+        r = adapter.send(request, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f197f8f0dd8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryNgt6aqtOrf0ooQRj",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 51.40ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 34ed777d-b5ea-4236-9a4b-df85eb04338e
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 34ed777d-b5ea-4236-9a4b-df85eb04338e
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 34ed777d-b5ea-4236-9a4b-df85eb04338e
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/34ed777d-b5ea-4236-9a4b-df85eb04338e/channels?session_id=1d83139200eb4a3b866666aba538f4bb (127.0.0.1): Kernel does not exist: 34ed777d-b5ea-4236-9a4b-df85eb04338e
+[NotebookApp | WARNING] 404 GET /api/kernels/34ed777d-b5ea-4236-9a4b-df85eb04338e/channels?session_id=1d83139200eb4a3b866666aba538f4bb (127.0.0.1) 103.78ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.50ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.61ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+        (self._dns_host, self.port), self.timeout, **extra_kw)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+      File "/home/manshi/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    socket.gaierror: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+        chunked=chunked)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+        self._validate_conn(conn)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+        conn.connect()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+        conn = self._new_conn()
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+        self, "Failed to establish a new connection: %s" % e)
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f95d0696940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+        timeout=timeout
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+        _stacktrace=sys.exc_info()[2])
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+        raise MaxRetryError(_pool, url, error or ResponseError(cause))
+    urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f95d0696940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 76, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 87, in get_response
+        access_token = get_accesstoken(self)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 134, in get_accesstoken
+        response = requests.post(url, data)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 116, in post
+        return request('post', url, data=data, json=json, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/api.py", line 60, in request
+        return session.request(method=method, url=url, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+        r = adapter.send(request, **kwargs)
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPSConnectionPool(host='accounts-fuse-ai-stage.auth0.com', port=443): Max retries exceeded with url: /oauth/token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f95d0696940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "556",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryocOtnCl44uCXMBIx",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 27.56ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 5c1d8f74-d242-466b-973e-87ec79fc57b1
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5c1d8f74-d242-466b-973e-87ec79fc57b1
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 5c1d8f74-d242-466b-973e-87ec79fc57b1
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 11.83ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.27ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 78, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 89, in get_response
+        access_token = get_accesstoken(self)
+    TypeError: get_accesstoken() takes 0 positional arguments but 1 was given
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "558",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary8eYkjeoC2VY4R5AY",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 41.00ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: cc3e159f-8578-4e60-8bfc-7c76eaafc84e
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cc3e159f-8578-4e60-8bfc-7c76eaafc84e
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: cc3e159f-8578-4e60-8bfc-7c76eaafc84e
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/cc3e159f-8578-4e60-8bfc-7c76eaafc84e/channels?session_id=51e7d590a3bc412b8e42df561d86baca (127.0.0.1): Kernel does not exist: cc3e159f-8578-4e60-8bfc-7c76eaafc84e
+[NotebookApp | WARNING] 404 GET /api/kernels/cc3e159f-8578-4e60-8bfc-7c76eaafc84e/channels?session_id=51e7d590a3bc412b8e42df561d86baca (127.0.0.1) 58.84ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.95ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.05ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 77, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 88, in get_response
+        access_token = get_accesstoken(self)
+    TypeError: get_accesstoken() takes 0 positional arguments but 1 was given
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarykVxl3bRo64drzjOy",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 11.69ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 6551c38c-29e8-46b4-a9b9-a01571f9b29a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6551c38c-29e8-46b4-a9b9-a01571f9b29a
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 6551c38c-29e8-46b4-a9b9-a01571f9b29a
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/6551c38c-29e8-46b4-a9b9-a01571f9b29a/channels?session_id=7a4ec4a38cf4435f8586f55db61508bd (127.0.0.1): Kernel does not exist: 6551c38c-29e8-46b4-a9b9-a01571f9b29a
+[NotebookApp | WARNING] 404 GET /api/kernels/6551c38c-29e8-46b4-a9b9-a01571f9b29a/channels?session_id=7a4ec4a38cf4435f8586f55db61508bd (127.0.0.1) 48.42ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 6551c38c-29e8-46b4-a9b9-a01571f9b29a:7a4ec4a38cf4435f8586f55db61508bd
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.98ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.86ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 77, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 88, in get_response
+        access_token = get_accesstoken(self)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 145, in get_accesstoken
+        response_json = json.loads(response.text)
+    UnboundLocalError: local variable 'response' referenced before assignment
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryKpf4Nn3yeKwrbwnE",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 10.32ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 6dcc6fcb-b342-4688-a085-b6e068d7755f
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6dcc6fcb-b342-4688-a085-b6e068d7755f
+[NotebookApp | INFO] Starting buffering for 6dcc6fcb-b342-4688-a085-b6e068d7755f:3aa3ee158bc042138c391923f3952ca9
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.06ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.03ms referer=None
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6dcc6fcb-b342-4688-a085-b6e068d7755f
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 6dcc6fcb-b342-4688-a085-b6e068d7755f
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/6dcc6fcb-b342-4688-a085-b6e068d7755f/channels?session_id=034a865e1ebc400aa9a89997ce9a5c69 (127.0.0.1): Kernel does not exist: 6dcc6fcb-b342-4688-a085-b6e068d7755f
+[NotebookApp | WARNING] 404 GET /api/kernels/6dcc6fcb-b342-4688-a085-b6e068d7755f/channels?session_id=034a865e1ebc400aa9a89997ce9a5c69 (127.0.0.1) 61.63ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.15ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.06ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 77, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 89, in get_response
+        headers = {'Authorization':'bearer'+' '+access_token,
+    TypeError: must be str, not tuple
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "563",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryJAlpdxAvXGuZOGDK",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|24769ec0|6dbcfe93a321b05b3fbcb9ec47ca1a6a|1556527399; username-localhost-8888=\"2|1:0|10:1556527401|23:username-localhost-8888|44:YzU1OTI5MDk0ODc5NDIzYmEzNmFiMjQ2MTVjMjM5YjE=|cbb1a6e0a16da283f4d5e9bf9aa1c1b095a4d3f369b965edbaf80e7305710185\""
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 15.43ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | INFO] Kernel started: 4b1cbdd1-5338-48e6-8d20-d727380523ee
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4b1cbdd1-5338-48e6-8d20-d727380523ee
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 4b1cbdd1-5338-48e6-8d20-d727380523ee
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/4b1cbdd1-5338-48e6-8d20-d727380523ee/channels?session_id=92fd917d9c04403c834e045ed9a68cef (127.0.0.1): Kernel does not exist: 4b1cbdd1-5338-48e6-8d20-d727380523ee
+[NotebookApp | WARNING] 404 GET /api/kernels/4b1cbdd1-5338-48e6-8d20-d727380523ee/channels?session_id=92fd917d9c04403c834e045ed9a68cef (127.0.0.1) 52.41ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 4b1cbdd1-5338-48e6-8d20-d727380523ee:92fd917d9c04403c834e045ed9a68cef
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.21ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.18ms referer=None
+[NotebookApp | INFO] Kernel started: 1f25861a-1bbb-4f41-bf3b-59b16bcc7e49
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1f25861a-1bbb-4f41-bf3b-59b16bcc7e49

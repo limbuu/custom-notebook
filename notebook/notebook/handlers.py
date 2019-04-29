@@ -32,6 +32,8 @@ def get_custom_frontend_exporters():
             display = _('{} ({})'.format(ux_name, exporter.file_extension))
             yield ExporterInfo(name, display)
 
+## add accesstoken as global variable since token age is 24hrs
+AccessToken = ''
 ## test notebook progress handler
 class FuseProgressHandler(tornado.web.RequestHandler):
     ### add cors
@@ -60,7 +62,7 @@ class FuseProgressHandler(tornado.web.RequestHandler):
         environment = self.get_argument('environment')
     ## know if it is of Project or Assignment or playground
         value = self.get_argument('value') ## Assignment/Project Name
-        type = self.get_argument('type') ## Either Assignment or Project
+        type = self.get_argument('type') ## Either Assignment or Project or Playground
         email = self.get_argument('email')
 
         payload = {'email': email,
@@ -77,29 +79,46 @@ class FuseProgressHandler(tornado.web.RequestHandler):
             response_json = {'message':'The environment is other than PRODUCTION && STAGE'}
         print('Response after hitting Progress API:',response_json)
         self.flush()
-        self.write('Success')
+        self.write(response_json)
 
-    def get_response(self,value,payload,url_project,url_assignment):
+    def get_response(self,type,payload,url_project,url_assignment):
         print('Inside the get response method')
-        print(value,' ',payload,' ',url_project+' ',url_assignment)
+        print(type,' ',payload,' ',url_project+' ',url_assignment)
 
-        access_token = get_accesstoken(self)
+        access_token = AccessToken
         headers = {'Authorization':'bearer'+' '+access_token,
                    'Content-Type':'application/json'}
         print('Token: ',access_token)
         print('Headers: ',headers)
         print('Payload:  ',payload)
         print('Assignment URL ',url_assignment)
+        if type =='Project':
+            try:
+                response = requests.post(url_project,json=payload, headers=headers)
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as errh:
+                print ("Http Error:",errh)
+            except requests.exceptions.ConnectionError as errc:
+                print ("Error Connecting:",errc)
+            except requests.exceptions.Timeout as errt:
+                print ("Timeout Error:",errt)
+            except requests.exceptions.RequestException as err:
+                print ("OOps: Something Else",err)
+        elif type == 'Assignment':
 
-
-        if value=='Project':
-            response = requests.post(url_project,json=payload, headers=headers)
-        elif value == 'Assignment':
-            print("####The response is#####")
-            response = requests.post(url_assignment,json=payload, headers=headers)
-            print(json.loads(response.text))
-        else :
-            response = {'message':'It is playground-practice notebook!'}
+            try :
+                response = requests.post(url_assignment,json=payload, headers=headers)
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as errh:
+                print ('Http Error:',errh)
+            except requests.exceptions.ConnectionError as errc:
+                print ('Error Connecting:',errc)
+            except requests.exceptions.Timeout as errt:
+                print ('Timeout Error:',errt)
+            except requests.exceptions.RequestException as err:
+                print ('OOps: Something Else',err)
+        print('####The response is#####')
+        print(response.json())
         return json.loads(response.text)
 
 def get_accesstoken(self):
@@ -111,11 +130,23 @@ def get_accesstoken(self):
             'audience': 'https://fuse-ai-api-stage.fusemachines.com/',
         }
 
-    response = requests.post(url, data)
+    try:
+        response = requests.post(url, data)
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as errh:
+        print('Http Error:',errh)
+    except requests.exceptions.ConnectionError as errc:
+        print('Error Connecting:',errc)
+    except requests.exceptions.Timeout as errt:
+        print('Timeout Error:',errt)
+    except requests.exceptions.RequestException as err:
+        print('OOPs: Something Else',err)
+
     response_json = json.loads(response.text)
-    print("Response for the access_token: ",response_json)
+    print('Response for the access_token: ',response_json)
     access_token = json.loads(response.text)[u'access_token']
-    print("Access tokenn is: ",access_token)
+    print('Access tokenn is: ',access_token)
+    AccessToken = access_token
     return access_token
 
 class FuseSubmitHandler(tornado.web.RequestHandler):
@@ -157,28 +188,45 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
         self.flush()
         self.write('Success')
 
-    def get_submit_response(self, value, payload, url_project, url_assignment):
+    def get_submit_response(self, type, payload, url_project, url_assignment):
         print('Inside the get response method')
-        print(value, ' ', payload, ' ', url_project + ' ', url_assignment)
+        print(type, ' ', payload, ' ', url_project + ' ', url_assignment)
 
-        access_token = get_accesstoken(self)
+        access_token = AccessToken
         headers = {'Authorization': 'bearer' + ' ' + access_token,
                    'Content-Type': 'application/json'}
         print('Token: ', access_token)
         print('Headers: ', headers)
         print('Payload:  ', payload)
         print('Assignment URL ', url_assignment)
-        if value == 'Project':
-            response = requests.post(url_project, json=payload, headers=headers)
-        elif value == 'Assignment':
-            print("##########################################")
-            print("Dont forget it is assignment!")
-            response = requests.post(url_assignment, json=payload,headers=headers)
-        else:
-            response = {'message': 'It is playground-practice notebook!'}
+        if type == 'Project':
+            try:
+                response = requests.post(url_project,json=payload, headers=headers)
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as errh:
+                print ("Http Error:",errh)
+            except requests.exceptions.ConnectionError as errc:
+                print ("Error Connecting:",errc)
+            except requests.exceptions.Timeout as errt:
+                print ("Timeout Error:",errt)
+            except requests.exceptions.RequestException as err:
+                print ("OOps: Something Else",err)
+        elif type == 'Assignment':
+            print('##########################################')
+            print('Dont forget it is assignment!')
+            try :
+                response = requests.post(url_assignment,json=payload, headers=headers)
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as errh:
+                print ('Http Error:',errh)
+            except requests.exceptions.ConnectionError as errc:
+                print ('Error Connecting:',errc)
+            except requests.exceptions.Timeout as errt:
+                print ('Timeout Error:',errt)
+            except requests.exceptions.RequestException as err:
+                print ('OOps: Something Else',err)
         print('The submit API response is: ',json.loads(response.text))
         return json.loads(response.text)
-
 
 class NotebookHandler(IPythonHandler):
     @web.authenticated
