@@ -378,8 +378,16 @@ data-notebook-path="{{notebook_path | urlencode}}"
 </script>
 
 <script>
+    
 
+    // parse the current url
+    var urlParams = new URLSearchParams(window.location.search);
+    var entries = urlParams.entries();
+    for(pair of entries){
+        console.log(pair[0],pair[1]);
+    }
 
+    // parse cookies
     function parse_cookies() {
         var cookies = {};
         if (document.cookie && document.cookie !== '') {
@@ -413,6 +421,12 @@ data-notebook-path="{{notebook_path | urlencode}}"
         form.append('environment','stage');
         form.append('value','Module2-Unit1');
         form.append('type','Assignment');
+        if (urlParams.has('programId')){
+            form.append('programId',urlParams.get('programId'))
+        }
+        if(urlParams.has('batchId')){
+            form.append('batchId',urlParams.get('batchId'))
+        }
         http.open('POST',url,true);
         http.withCredentials = true;
         http.setRequestHeader('X-CSRFToken',cookies._xsrf);
@@ -423,6 +437,9 @@ data-notebook-path="{{notebook_path | urlencode}}"
                 console.log(http.responseText)
                 console.log(http.responseType)
                 console.log('Progesss API hit on Fuse.ai')
+                if(http.responseText.lastSubmittedDate != 0){
+                console.log('Progress API: Now put the last submitted date');
+                }
             }else{
                 console.log('Couldnt hit Progress API in fuse.ai')
             }
@@ -446,6 +463,12 @@ data-notebook-path="{{notebook_path | urlencode}}"
         form.append('score', 1);
         form.append('totalScore',10);
         form.append('correct',true)
+        if (urlParams.has('programId')){
+            form.append('programId',urlParams.get('programId'))
+        }
+        if(urlParams.has('batchId')){
+            form.append('batchId',urlParams.get('batchId'))
+        }
         http.open('POST',url);
         http.withCredentials = true;
         http.setRequestHeader('X-CSRFToken',cookies._xsrf);
@@ -456,6 +479,9 @@ data-notebook-path="{{notebook_path | urlencode}}"
                 console.log(http.responseText)
                 console.log(http.responseType)
                 console.log('assignment is submitted successfully');
+                if(http.responseText.lastSubmittedDate != 0){
+                console.log('Submit API: Now put the last submitted date');
+                }
             }else{
                 console.log('Sorry, assignment couldnt be submitted successfully')
             }

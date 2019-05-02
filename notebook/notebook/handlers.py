@@ -34,6 +34,17 @@ def get_custom_frontend_exporters():
 
 ## add accesstoken as global variable since token age is 24hrs
 AccessToken = ''
+# progress urls constants prod and stage as global variables
+project_progress_url_stage = "https://fuse-ai-stage-api.fuse.ai/v1/project/progress"
+assignment_progress_url_stage = "https://fuse-ai-stage-api.fuse.ai/v1/assignment/progress"
+project_progress_url_prod = "https://fuse-ai-prod-api.fusemachines.com/v1/project/progress"
+assignment_progress_url_prod = "https://fuse-ai-prod-api.fusemachines.com/v1/assignment/progress"
+# submit urls constants prod and stage as global variables
+project_submit_url_stage = 'https://fuse-ai-stage-api.fuse.ai/v1/project/submit'
+assignment_submit_url_stage = 'https://fuse-ai-stage-api.fuse.ai/v1/assignment/submit'
+project_submit_url_prod = 'https://fuse-ai-prod-api.fusemachines.com/v1/project/submit'
+assignment_submit_url_prod = 'https://fuse-ai-prod-api.fusemachines.com/v1/assignment/submit'
+
 ## test notebook progress handler
 class FuseProgressHandler(tornado.web.RequestHandler):
     ### add cors
@@ -52,22 +63,20 @@ class FuseProgressHandler(tornado.web.RequestHandler):
 
     ## post the progess
     def post(self):
-    # progress urls constants prod and stage
-        project_progress_url_stage = "https://fuse-ai-stage-api.fuse.ai/v1/project/progress"
-        assignment_progress_url_stage = "https://fuse-ai-stage-api.fuse.ai/v1/assignment/progress"
-        project_progress_url_prod = "https://fuse-ai-prod-api.fusemachines.com/v1/project/progress"
-        assignment_progress_url_prod = "https://fuse-ai-prod-api.fusemachines.com/v1/assignment/progress"
-
     ## know if it is stage or prod
         environment = self.get_argument('environment')
     ## know if it is of Project or Assignment or playground
         value = self.get_argument('value') ## Assignment/Project Name
         type = self.get_argument('type') ## Either Assignment or Project or Playground
         email = self.get_argument('email')
+        programId = self.get_argument('programId')
+        batchId = self.get_argument('batchId')
 
         payload = {'email': email,
                'status': 'progress',
-               'name': value}
+               'name': value,
+               'programId':programId,
+               'batchId':batchId}
 
         print("The payload for fuse.ai PROGRESS API is: ")
         print(payload)
@@ -85,7 +94,7 @@ class FuseProgressHandler(tornado.web.RequestHandler):
         print('Inside the get response method')
         print(type,' ',payload,' ',url_project+' ',url_assignment)
 
-        access_token = AccessToken
+        access_token = get_accesstoken(self)
         headers = {'Authorization':'bearer'+' '+access_token,
                    'Content-Type':'application/json'}
         print('Token: ',access_token)
@@ -152,13 +161,7 @@ def get_accesstoken(self):
 class FuseSubmitHandler(tornado.web.RequestHandler):
 
     def post(self):
-        project_submit_url_stage = 'https://fuse-ai-stage-api.fuse.ai/v1/project/submit'
-        assignment_submit_url_stage = 'https://fuse-ai-stage-api.fuse.ai/v1/assignment/submit'
-        project_submit_url_prod = 'https://fuse-ai-prod-api.fusemachines.com/v1/project/submit'
-        assignment_submit_url_prod = 'https://fuse-ai-prod-api.fusemachines.com/v1/assignment/submit'
-
         print("FuseSubmitHandler works like a charm")
-
         ## know if it is stage or prod
         environment = self.get_argument('environment')
         ## know if it is of Project or Assignment or playground
@@ -168,13 +171,17 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
         correct = self.get_argument('correct')
         score = self.get_argument('score')
         totalScore = self.get_argument('totalScore')
+        programId = self.get_argument('programId')
+        batchId = self.get_argument('batchId')
         ## send the assignment score to the fuse.ai
         payload = {'email': email,
                     'status': 'progress',
                      'score': score,
                      'totalScore': totalScore,
                      'correct': correct,
-                     'name': value }
+                     'name': value,
+                     'programId': programId,
+                     'bacthId':batchId }
 
         print("The payload for fuse.ai SUBMIT API is: ")
         print(payload)
@@ -186,13 +193,13 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
             response_json = {'message': 'The environment is other than PRODUCTION && STAGE'}
         print('Response after hitting Submit API:', response_json)
         self.flush()
-        self.write('Success')
+        self.write(response_json)
 
     def get_submit_response(self, type, payload, url_project, url_assignment):
         print('Inside the get response method')
         print(type, ' ', payload, ' ', url_project + ' ', url_assignment)
 
-        access_token = AccessToken
+        access_token = get_accesstoken(self)
         headers = {'Authorization': 'bearer' + ' ' + access_token,
                    'Content-Type': 'application/json'}
         print('Token: ', access_token)
