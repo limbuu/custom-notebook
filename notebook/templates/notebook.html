@@ -340,6 +340,7 @@ data-notebook-path="{{notebook_path | urlencode}}"
     <div id="maintoolbar-container" class="container"></div>
     <div class="button-class">
         <button class="button hidden-button" id="button-id" onclick="validateandsubmit()">Submit</button>
+       <p id="demo"></p>
     </div>
   </div>
 </div>
@@ -376,7 +377,10 @@ data-notebook-path="{{notebook_path | urlencode}}"
 <script type="text/javascript">
     sys_info = {{sys_info|safe}};
 </script>
-
+<script>
+        var obj = { name: "John", today: new Date(), city: "New York" };
+        var myJSON = JSON.stringify(obj);
+        </script>
 <script>
     
 
@@ -433,12 +437,12 @@ data-notebook-path="{{notebook_path | urlencode}}"
         http.send(form);
         http.onreadystatechange = function(){
             if(http.status===200){
-                console.log('The response is: ')
-                console.log(http.responseText)
-                console.log(http.responseType)
+                console.log('The response is: ');
+                let obj = JSON.stringify(http.responseText);
                 console.log('Progesss API hit on Fuse.ai')
                 if(http.responseText.lastSubmittedDate != 0){
                 console.log('Progress API: Now put the last submitted date');
+                console.log(obj);
                 }
             }else{
                 console.log('Couldnt hit Progress API in fuse.ai')

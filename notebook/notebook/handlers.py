@@ -5,7 +5,7 @@
 
 from collections import namedtuple
 import os
-from tornado import web
+from tornado import web, gen
 from tornado.httpclient import HTTPRequest,HTTPResponse,HTTPError
 import tornado
 from tornado import log
