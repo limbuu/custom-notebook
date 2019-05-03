@@ -2735,3 +2735,521 @@
 [NotebookApp | CRITICAL] received signal 2, stopping
 [NotebookApp | CRITICAL] received signal 2, stopping
 [NotebookApp | INFO] Kernel shutdown: 4f852efc-54c2-40c5-beac-a080c38930f1
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1): Missing argument programId
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1) 6.54ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 22.36ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.52ms referer=None
+[NotebookApp | INFO] Kernel started: 7aae81ab-5110-49a6-b77c-f1b26ac331e9
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 7aae81ab-5110-49a6-b77c-f1b26ac331e9
+[NotebookApp | INFO] Starting buffering for 7aae81ab-5110-49a6-b77c-f1b26ac331e9:72820b0f0c12485e99eb6953cb9c69b9
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.53ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.31ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 91, in post
+        print('Data type of response json is: '+type(response_json))
+    TypeError: 'str' object is not callable
+[NotebookApp | ERROR] Cannot send error response after headers written
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 7aae81ab-5110-49a6-b77c-f1b26ac331e9
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 7aae81ab-5110-49a6-b77c-f1b26ac331e9
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/7aae81ab-5110-49a6-b77c-f1b26ac331e9/channels?session_id=96f4090123fb44efb0ed0384cab525ad (127.0.0.1): Kernel does not exist: 7aae81ab-5110-49a6-b77c-f1b26ac331e9
+[NotebookApp | WARNING] 404 GET /api/kernels/7aae81ab-5110-49a6-b77c-f1b26ac331e9/channels?session_id=96f4090123fb44efb0ed0384cab525ad (127.0.0.1) 108.13ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 7aae81ab-5110-49a6-b77c-f1b26ac331e9:96f4090123fb44efb0ed0384cab525ad
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 19.80ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 30.42ms referer=None
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 91, in post
+        print('Data type of response json is: '+type(response_json))
+    TypeError: 'str' object is not callable
+[NotebookApp | ERROR] Cannot send error response after headers written
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1): Missing argument programId
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1) 13.34ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 59.95ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 5.03ms referer=None
+[NotebookApp | INFO] Kernel started: 06af9922-754b-429c-9cdc-8bc14422858c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 06af9922-754b-429c-9cdc-8bc14422858c
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 06af9922-754b-429c-9cdc-8bc14422858c
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/06af9922-754b-429c-9cdc-8bc14422858c/channels?session_id=40dec81315ca44a0884cba585b5d6598 (127.0.0.1): Kernel does not exist: 06af9922-754b-429c-9cdc-8bc14422858c
+[NotebookApp | WARNING] 404 GET /api/kernels/06af9922-754b-429c-9cdc-8bc14422858c/channels?session_id=40dec81315ca44a0884cba585b5d6598 (127.0.0.1) 102.19ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 06af9922-754b-429c-9cdc-8bc14422858c:40dec81315ca44a0884cba585b5d6598
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 39.64ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 11.03ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 92, in post
+        print(type(response_json))
+    TypeError: 'str' object is not callable
+[NotebookApp | ERROR] Cannot send error response after headers written
+[NotebookApp | INFO] Kernel started: 813690b7-db39-4350-af14-5b2b57308f94
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 813690b7-db39-4350-af14-5b2b57308f94
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 813690b7-db39-4350-af14-5b2b57308f94
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1): Missing argument programId
+[NotebookApp | WARNING] 400 POST /progressfuse (127.0.0.1) 16.23ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 91, in post
+        if type(response_json) == str :
+    TypeError: 'str' object is not callable
+[NotebookApp | ERROR] Cannot send error response after headers written
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 34.04ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 14.88ms referer=None
+[NotebookApp | INFO] Kernel started: 405b221c-aaed-4d72-bdb8-7b2e41128db6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 405b221c-aaed-4d72-bdb8-7b2e41128db6
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 405b221c-aaed-4d72-bdb8-7b2e41128db6
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/405b221c-aaed-4d72-bdb8-7b2e41128db6/channels?session_id=7453a84817f64a088bcfba1b54f4ec18 (127.0.0.1): Kernel does not exist: 405b221c-aaed-4d72-bdb8-7b2e41128db6
+[NotebookApp | WARNING] 404 GET /api/kernels/405b221c-aaed-4d72-bdb8-7b2e41128db6/channels?session_id=7453a84817f64a088bcfba1b54f4ec18 (127.0.0.1) 192.52ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 405b221c-aaed-4d72-bdb8-7b2e41128db6:7453a84817f64a088bcfba1b54f4ec18
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 14.33ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 29.29ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 86, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 131, in get_response
+        print(type(response.json()))
+    TypeError: 'str' object is not callable
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "759",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|a8f1335e|a4f2c5b23da7e59dd444d60d9aac1e68|1556874093",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryMIn0xnkouSz9E5os",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb?programId=123&batchId=124",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-localhost-8888=\"2|1:0|10:1556769902|23:username-localhost-8888|44:YjU4MTIyMzUxNzk1NDQ4YTk4ZjA1MjFhZWJkOWNiNDE=|596c50d7a7d22524450f85eeb05c2b5dbf6a7a1d527919d168255db3703c55b2\"; _xsrf=2|a8f1335e|a4f2c5b23da7e59dd444d60d9aac1e68|1556874093"
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 3471.33ms referer=http://localhost:8888/notebooks/Untitled.ipynb?programId=123&batchId=124
+[NotebookApp | INFO] Kernel started: 6427f104-e49a-4a0c-9b04-c0e52c7dc124
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6427f104-e49a-4a0c-9b04-c0e52c7dc124
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 6427f104-e49a-4a0c-9b04-c0e52c7dc124
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/6427f104-e49a-4a0c-9b04-c0e52c7dc124/channels?session_id=d7cc623234bb415c87a72e6612becd05 (127.0.0.1): Kernel does not exist: 6427f104-e49a-4a0c-9b04-c0e52c7dc124
+[NotebookApp | WARNING] 404 GET /api/kernels/6427f104-e49a-4a0c-9b04-c0e52c7dc124/channels?session_id=d7cc623234bb415c87a72e6612becd05 (127.0.0.1) 159.12ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 6427f104-e49a-4a0c-9b04-c0e52c7dc124:d7cc623234bb415c87a72e6612becd05
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.58ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.07ms referer=None
+[NotebookApp | INFO] Kernel started: 9a009dfd-c880-4994-a6d3-15582d908185
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9a009dfd-c880-4994-a6d3-15582d908185
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 9a009dfd-c880-4994-a6d3-15582d908185
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/9a009dfd-c880-4994-a6d3-15582d908185/channels?session_id=55879866b40b4a2b854db9f6bad79849 (127.0.0.1): Kernel does not exist: 9a009dfd-c880-4994-a6d3-15582d908185
+[NotebookApp | WARNING] 404 GET /api/kernels/9a009dfd-c880-4994-a6d3-15582d908185/channels?session_id=55879866b40b4a2b854db9f6bad79849 (127.0.0.1) 148.30ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 9a009dfd-c880-4994-a6d3-15582d908185:55879866b40b4a2b854db9f6bad79849
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.99ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.98ms referer=None
+[NotebookApp | INFO] Kernel started: fd9e35a3-976c-4b95-8c86-8fd3887c9a48
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel fd9e35a3-976c-4b95-8c86-8fd3887c9a48
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: fd9e35a3-976c-4b95-8c86-8fd3887c9a48
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/fd9e35a3-976c-4b95-8c86-8fd3887c9a48/channels?session_id=6bfb19f8f868435383dd58cb1d965288 (127.0.0.1): Kernel does not exist: fd9e35a3-976c-4b95-8c86-8fd3887c9a48
+[NotebookApp | WARNING] 404 GET /api/kernels/fd9e35a3-976c-4b95-8c86-8fd3887c9a48/channels?session_id=6bfb19f8f868435383dd58cb1d965288 (127.0.0.1) 210.95ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: fd9e35a3-976c-4b95-8c86-8fd3887c9a48:6bfb19f8f868435383dd58cb1d965288
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 3.47ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 12.97ms referer=None
+[NotebookApp | ERROR] Uncaught exception POST /progressfuse (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/progressfuse', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/manshi/plain-notebook/lib/python3.6/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 86, in post
+        response_json = self.get_response(type,payload, project_progress_url_stage, assignment_progress_url_stage)
+      File "/home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0/notebook/notebook/handlers.py", line 134, in get_response
+        return json.loads(response.json())
+      File "/home/manshi/anaconda3/lib/python3.6/json/__init__.py", line 348, in loads
+        'not {!r}'.format(s.__class__.__name__))
+    TypeError: the JSON object must be str, bytes or bytearray, not 'dict'
+[NotebookApp | ERROR] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "759",
+      "Origin": "http://localhost:8888",
+      "X-Csrftoken": "2|a8f1335e|a4f2c5b23da7e59dd444d60d9aac1e68|1556874093",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+      "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarychRzIwBlV8jfV0Uj",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb?programId=123&batchId=124",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-localhost-8888=\"2|1:0|10:1556769902|23:username-localhost-8888|44:YjU4MTIyMzUxNzk1NDQ4YTk4ZjA1MjFhZWJkOWNiNDE=|596c50d7a7d22524450f85eeb05c2b5dbf6a7a1d527919d168255db3703c55b2\"; _xsrf=2|a8f1335e|a4f2c5b23da7e59dd444d60d9aac1e68|1556874093"
+    }
+[NotebookApp | ERROR] 500 POST /progressfuse (127.0.0.1) 3491.48ms referer=http://localhost:8888/notebooks/Untitled.ipynb?programId=123&batchId=124
+[NotebookApp | INFO] Kernel started: 4a19c8fa-8384-4ff0-a449-0411f0737e81
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4a19c8fa-8384-4ff0-a449-0411f0737e81
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 4a19c8fa-8384-4ff0-a449-0411f0737e81
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/4a19c8fa-8384-4ff0-a449-0411f0737e81/channels?session_id=1487dc2380b64945acaf4544bca5fd95 (127.0.0.1): Kernel does not exist: 4a19c8fa-8384-4ff0-a449-0411f0737e81
+[NotebookApp | WARNING] 404 GET /api/kernels/4a19c8fa-8384-4ff0-a449-0411f0737e81/channels?session_id=1487dc2380b64945acaf4544bca5fd95 (127.0.0.1) 123.97ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.64ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.38ms referer=None
+[NotebookApp | INFO] Kernel started: b10936bb-16a2-47a6-8f4f-d49862ca9bc5
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b10936bb-16a2-47a6-8f4f-d49862ca9bc5
+[NotebookApp | INFO] Starting buffering for b10936bb-16a2-47a6-8f4f-d49862ca9bc5:95c4d065c4ec46ea8ce1b7e86f0a2f7f
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 9.03ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.46ms referer=None
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b10936bb-16a2-47a6-8f4f-d49862ca9bc5
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: b10936bb-16a2-47a6-8f4f-d49862ca9bc5
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 20.77ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.98ms referer=None
+[NotebookApp | INFO] Kernel started: 2077df6c-9ea4-40b3-82de-4b3aea474c18
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2077df6c-9ea4-40b3-82de-4b3aea474c18
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 2077df6c-9ea4-40b3-82de-4b3aea474c18
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/2077df6c-9ea4-40b3-82de-4b3aea474c18/channels?session_id=389701dd3e1540a184d6c88738645af4 (127.0.0.1): Kernel does not exist: 2077df6c-9ea4-40b3-82de-4b3aea474c18
+[NotebookApp | WARNING] 404 GET /api/kernels/2077df6c-9ea4-40b3-82de-4b3aea474c18/channels?session_id=389701dd3e1540a184d6c88738645af4 (127.0.0.1) 157.28ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 2077df6c-9ea4-40b3-82de-4b3aea474c18:389701dd3e1540a184d6c88738645af4
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 13.76ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 23.14ms referer=None
+[NotebookApp | INFO] Kernel started: f97035a4-51ad-4e37-9853-56cad05d9dab
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f97035a4-51ad-4e37-9853-56cad05d9dab
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: f97035a4-51ad-4e37-9853-56cad05d9dab
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/f97035a4-51ad-4e37-9853-56cad05d9dab/channels?session_id=ed7a3e591b1a41448de2822be6406509 (127.0.0.1): Kernel does not exist: f97035a4-51ad-4e37-9853-56cad05d9dab
+[NotebookApp | WARNING] 404 GET /api/kernels/f97035a4-51ad-4e37-9853-56cad05d9dab/channels?session_id=ed7a3e591b1a41448de2822be6406509 (127.0.0.1) 65.60ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: f97035a4-51ad-4e37-9853-56cad05d9dab:ed7a3e591b1a41448de2822be6406509
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.25ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 22.06ms referer=None
+[NotebookApp | INFO] Kernel started: 729c308b-bb7f-4161-9a7d-5c70748e7367
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 729c308b-bb7f-4161-9a7d-5c70748e7367
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 729c308b-bb7f-4161-9a7d-5c70748e7367
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/729c308b-bb7f-4161-9a7d-5c70748e7367/channels?session_id=af81811c62e345ab896e8d0c1e092bf8 (127.0.0.1): Kernel does not exist: 729c308b-bb7f-4161-9a7d-5c70748e7367
+[NotebookApp | WARNING] 404 GET /api/kernels/729c308b-bb7f-4161-9a7d-5c70748e7367/channels?session_id=af81811c62e345ab896e8d0c1e092bf8 (127.0.0.1) 121.08ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 19.93ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 63.37ms referer=None
+[NotebookApp | INFO] Kernel started: bf2f6355-c85a-4f18-a4e9-b4d59888caf9
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel bf2f6355-c85a-4f18-a4e9-b4d59888caf9
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: bf2f6355-c85a-4f18-a4e9-b4d59888caf9
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/bf2f6355-c85a-4f18-a4e9-b4d59888caf9/channels?session_id=f5d1586ecdf642e28d55acd89501dca0 (127.0.0.1): Kernel does not exist: bf2f6355-c85a-4f18-a4e9-b4d59888caf9
+[NotebookApp | WARNING] 404 GET /api/kernels/bf2f6355-c85a-4f18-a4e9-b4d59888caf9/channels?session_id=f5d1586ecdf642e28d55acd89501dca0 (127.0.0.1) 102.80ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: bf2f6355-c85a-4f18-a4e9-b4d59888caf9:f5d1586ecdf642e28d55acd89501dca0
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 12.70ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 10.40ms referer=None
+[NotebookApp | INFO] Kernel started: 651f5c24-2592-4b0a-9a27-57cfb94d68a0
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 651f5c24-2592-4b0a-9a27-57cfb94d68a0
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 651f5c24-2592-4b0a-9a27-57cfb94d68a0
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/651f5c24-2592-4b0a-9a27-57cfb94d68a0/channels?session_id=02f4b177bd2c4f27a76c6a07d4bb53e9 (127.0.0.1): Kernel does not exist: 651f5c24-2592-4b0a-9a27-57cfb94d68a0
+[NotebookApp | WARNING] 404 GET /api/kernels/651f5c24-2592-4b0a-9a27-57cfb94d68a0/channels?session_id=02f4b177bd2c4f27a76c6a07d4bb53e9 (127.0.0.1) 85.01ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 651f5c24-2592-4b0a-9a27-57cfb94d68a0:02f4b177bd2c4f27a76c6a07d4bb53e9
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 14.85ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 8.03ms referer=None
+[NotebookApp | INFO] Kernel started: f2d9e4e8-36ae-40af-addd-053a9a33bf57
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f2d9e4e8-36ae-40af-addd-053a9a33bf57
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: f2d9e4e8-36ae-40af-addd-053a9a33bf57
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/f2d9e4e8-36ae-40af-addd-053a9a33bf57/channels?session_id=3d6751e25c3f4c998e292dadd08d1415 (127.0.0.1): Kernel does not exist: f2d9e4e8-36ae-40af-addd-053a9a33bf57
+[NotebookApp | WARNING] 404 GET /api/kernels/f2d9e4e8-36ae-40af-addd-053a9a33bf57/channels?session_id=3d6751e25c3f4c998e292dadd08d1415 (127.0.0.1) 240.44ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: f2d9e4e8-36ae-40af-addd-053a9a33bf57:3d6751e25c3f4c998e292dadd08d1415
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 20.38ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 13.48ms referer=None
+[NotebookApp | INFO] Kernel started: bdfa437e-82d6-4a36-9b9b-8a42497e0809
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel bdfa437e-82d6-4a36-9b9b-8a42497e0809
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: bdfa437e-82d6-4a36-9b9b-8a42497e0809
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/bdfa437e-82d6-4a36-9b9b-8a42497e0809/channels?session_id=120c445a4eaa43a08e33002c9c44aa87 (127.0.0.1): Kernel does not exist: bdfa437e-82d6-4a36-9b9b-8a42497e0809
+[NotebookApp | WARNING] 404 GET /api/kernels/bdfa437e-82d6-4a36-9b9b-8a42497e0809/channels?session_id=120c445a4eaa43a08e33002c9c44aa87 (127.0.0.1) 89.83ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: bdfa437e-82d6-4a36-9b9b-8a42497e0809:120c445a4eaa43a08e33002c9c44aa87
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 16.29ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 7.55ms referer=None
+[NotebookApp | INFO] Kernel started: 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb
+[NotebookApp | INFO] Starting buffering for 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb:0bc6b75dce4646aa92d1efd2b69a7bb1
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 14.73ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 3.71ms referer=None
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] 404 GET /api/kernels/2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb/channels?session_id=a82f84d542194f048d955a7caf1264c1 (127.0.0.1): Kernel does not exist: 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb
+[NotebookApp | WARNING] 404 GET /api/kernels/2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb/channels?session_id=a82f84d542194f048d955a7caf1264c1 (127.0.0.1) 381.07ms referer=None
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 2c0db8c4-0e1e-4f2d-91a7-cb2af8aeb7fb:a82f84d542194f048d955a7caf1264c1
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 6.75ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 7.73ms referer=None
+[NotebookApp | INFO] Kernel started: 0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1/channels?session_id=cbf3a3f27d7a4e929fe5ce50173eb1c4 (127.0.0.1): Kernel does not exist: 0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1
+[NotebookApp | WARNING] 404 GET /api/kernels/0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1/channels?session_id=cbf3a3f27d7a4e929fe5ce50173eb1c4 (127.0.0.1) 24.87ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 0e10f93e-0e26-4966-bdbe-6d1dbc73b0a1:cbf3a3f27d7a4e929fe5ce50173eb1c4
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 2.21ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.97ms referer=None
+[NotebookApp | INFO] Kernel started: 63bcce8b-3f43-49c3-8db0-60aaded04161
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 63bcce8b-3f43-49c3-8db0-60aaded04161
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 63bcce8b-3f43-49c3-8db0-60aaded04161
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /api/kernels/63bcce8b-3f43-49c3-8db0-60aaded04161/channels?session_id=7060103e80484d65bdcdd6cda76d167d (127.0.0.1): Kernel does not exist: 63bcce8b-3f43-49c3-8db0-60aaded04161
+[NotebookApp | WARNING] 404 GET /api/kernels/63bcce8b-3f43-49c3-8db0-60aaded04161/channels?session_id=7060103e80484d65bdcdd6cda76d167d (127.0.0.1) 26.18ms referer=None
+[NotebookApp | WARNING] Replacing stale connection: 63bcce8b-3f43-49c3-8db0-60aaded04161:7060103e80484d65bdcdd6cda76d167d
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 1.47ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.78ms referer=None
+[NotebookApp | INFO] Kernel started: ff241fe1-0778-4dfd-aab7-9b22530fe24a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ff241fe1-0778-4dfd-aab7-9b22530fe24a
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: ff241fe1-0778-4dfd-aab7-9b22530fe24a
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 11.21ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.49ms referer=None
+[NotebookApp | INFO] Kernel started: c4e7bc5e-27b0-4453-9272-65dfeee75416
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel c4e7bc5e-27b0-4453-9272-65dfeee75416
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: c4e7bc5e-27b0-4453-9272-65dfeee75416
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/manshi/AI-workspace/cutsom-notebook/notebook-5.6.0
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.5.5. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 12.20ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 1.06ms referer=None
+[NotebookApp | INFO] Kernel started: 24352089-8885-4955-90f7-038dbf8414a6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 24352089-8885-4955-90f7-038dbf8414a6
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Kernel shutdown: 24352089-8885-4955-90f7-038dbf8414a6

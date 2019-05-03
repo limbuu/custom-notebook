@@ -126,9 +126,13 @@ class FuseProgressHandler(tornado.web.RequestHandler):
                 print ('Timeout Error:',errt)
             except requests.exceptions.RequestException as err:
                 print ('OOps: Something Else',err)
-        print('####The response is#####')
-        print(response.json())
-        return json.loads(response.text)
+        print('####The response json is#####')
+        print(response.json()) ## it is dict or simply JSON object
+        print(response.text) ## it is str(JSON string)
+        ## remember : json.loads convert str(JSON string) to dict, or simply JSON object
+        ## json.dumps covert dict to json string
+        ## json.dumps(response.json()) or below
+        return response.text
 
 def get_accesstoken(self):
     url = 'https://accounts-fuse-ai-stage.auth0.com/oauth/token'
@@ -232,8 +236,8 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
                 print ('Timeout Error:',errt)
             except requests.exceptions.RequestException as err:
                 print ('OOps: Something Else',err)
-        print('The submit API response is: ',json.loads(response.text))
-        return json.loads(response.text)
+        print('The submit API response is: ',response.text)
+        return response.text
 
 class NotebookHandler(IPythonHandler):
     @web.authenticated

@@ -377,13 +377,7 @@ data-notebook-path="{{notebook_path | urlencode}}"
 <script type="text/javascript">
     sys_info = {{sys_info|safe}};
 </script>
-<script>
-        var obj = { name: "John", today: new Date(), city: "New York" };
-        var myJSON = JSON.stringify(obj);
-        </script>
-<script>
-    
-
+    <script>
     // parse the current url
     var urlParams = new URLSearchParams(window.location.search);
     var entries = urlParams.entries();
@@ -436,13 +430,13 @@ data-notebook-path="{{notebook_path | urlencode}}"
         http.setRequestHeader('X-CSRFToken',cookies._xsrf);
         http.send(form);
         http.onreadystatechange = function(){
-            if(http.status===200){
-                console.log('The response is: ');
-                let obj = JSON.stringify(http.responseText);
-                console.log('Progesss API hit on Fuse.ai')
+            if(http.readyState===4 && http.status===200){
+                console.log('Progesss API hit on Fuse.ai')         
+                var sobj = JSON.parse(http.responseText);
+                console.log('Parsed json response',sobj);
                 if(http.responseText.lastSubmittedDate != 0){
                 console.log('Progress API: Now put the last submitted date');
-                console.log(obj);
+                console.log('Last submiited date for progress: '+sobj["lastSubmittedDate"])
                 }
             }else{
                 console.log('Couldnt hit Progress API in fuse.ai')
@@ -478,13 +472,13 @@ data-notebook-path="{{notebook_path | urlencode}}"
         http.setRequestHeader('X-CSRFToken',cookies._xsrf);
         http.send(form);
         http.onreadystatechange=function(){
-            if(http.status===200){
-                console.log('The response is: ')
-                console.log(http.responseText)
-                console.log(http.responseType)
-                console.log('assignment is submitted successfully');
+            if(http.readyState==4 && http.status===200){
+                console.log('Submit API hit on fuse.ai');
+                var sobj = JSON.parse(http.responseText);
+                console.log('Parsed json response',sobj);
                 if(http.responseText.lastSubmittedDate != 0){
                 console.log('Submit API: Now put the last submitted date');
+                console.log('Last submitted date: '+sobj["lastSubmittedDate"])
                 }
             }else{
                 console.log('Sorry, assignment couldnt be submitted successfully')
