@@ -181,7 +181,7 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
                      'correct': correct,
                      'name': value,
                      'programId': programId,
-                     'bacthId':batchId }
+                     'batchId':batchId }
 
         print("The payload for fuse.ai SUBMIT API is: ")
         print(payload)
