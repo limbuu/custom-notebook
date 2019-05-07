@@ -258,19 +258,19 @@ class AssignmentResetHandler(tornado.web.RequestHandler):
                     print('Assignment user wants to delete is present, so lets overrite the file')
                     try :
                         shutil.copy('/tmp/assignments/fuse-ai-assignments/ai_course_id'+'/'+assignment,'/home/fusemachines'+'/'+assignment)
-                        response = {'response':'Success',
-                                    'assignment':assignment,
-                                    'user':email,
-                                    'message':'Notebook successfully reset'}
                     except OSError:
                         print('Oops! There was problem copying the new assignment')
             else :
                 print('There is no assignment there, couldnt copy the assignment ')
         else :
             print('The path you have stated doesnot exists')
+
+        response = {'response': 'Success',
+                    'assignment': assignment,
+                    'user': email,
+                    'environment':environment,
+                    'message': 'Notebook was successfully reset'}
         return json.dumps(response)
-
-
 
 
 class NotebookHandler(IPythonHandler):
