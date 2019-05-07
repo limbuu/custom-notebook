@@ -337,11 +337,12 @@ data-notebook-path="{{notebook_path | urlencode}}"
 
 <div id="maintoolbar" class="navbar">
   <div class="toolbar-inner navbar-inner navbar-nobg">
-    <div id="maintoolbar-container" class="container"></div>
-    <div class="button-class">
-        <button class="button hidden-button" id="button-id" onclick="validateandsubmit()">Submit</button>
-       <p id="demo"></p>
+    <div id="maintoolbar-container" class="container">
+        <div class="btn-group">
+        <button class="button hidden-button" id="button-id" style="background-color: #7FFFD4" onclick="reset_notebook()">Reset</button>
     </div>
+    </div>
+
   </div>
 </div>
 </div>
@@ -378,6 +379,34 @@ data-notebook-path="{{notebook_path | urlencode}}"
     sys_info = {{sys_info|safe}};
 </script>
     <script>
+
+        //reset notebook if users wants to
+        function reset_notebook(){
+        console.log('You can now reset the note book');
+        // use info get assignment name in future
+        // now lets hardcode it
+        var http = new XMLHttpRequest();
+        var url = '/resetAssignment';
+        var form = new FormData();
+        var cookies = parse_cookies();
+        form.append('email','limbuu116@gmail.com');
+        form.append('environment','stage');
+        form.append('assignment','Module2-Unit1');
+        http.open('POST',url,true);
+        http.withCredentials = true;
+        http.setRequestHeader('X-CSRFToken',cookies._xsrf);
+        http.send(form);
+         http.onreadystatechange = function(){
+          if(http.readyState===4 && http.status===200){
+                console.log('Reset Assignment API hit on notebook-backend')
+                }
+           else{
+           console.log('Couldn hit Reset Assignment API hit on notebook-backend')
+           }
+         };
+       };
+
+
     // parse the current url
     var urlParams = new URLSearchParams(window.location.search);
     var entries = urlParams.entries();

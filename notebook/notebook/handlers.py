@@ -11,6 +11,7 @@ import tornado
 from tornado import log
 import requests
 import json
+import shutil
 HTTPError = web.HTTPError
 
 from ..base.handlers import (
@@ -239,6 +240,39 @@ class FuseSubmitHandler(tornado.web.RequestHandler):
         print('The submit API response is: ',response.text)
         return response.text
 
+class AssignmentResetHandler(tornado.web.RequestHandler):
+
+    def post(self):
+        print('Inside assignment reset handler')
+        environment = self.get_argument('environment')
+        assignment = self.get_argument('assignment')
+        email = self.get_argument('email')
+        current_user = self.get_current_user()
+        print('Current user inside notebook is :',current_user)
+
+        if os.path.exists('/tmp/assignments/fuse-ai-assignments') :
+            print('fuse-ai-assignments is present')
+            if os.path.exists('/tmp/assignments/fuse-ai-assignments/ai_course_id'+'/'+assignment):
+                print('Assignment user wants to is rest is present')
+                if os.path.exists('/home/fusemachines'+'/'+assignment):
+                    print('Assignment user wants to delete is present, so lets overrite the file')
+                    try :
+                        shutil.copy('/tmp/assignments/fuse-ai-assignments/ai_course_id'+'/'+assignment,'/home/fusemachines'+'/'+assignment)
+                        response = {'response':'Success',
+                                    'assignment':assignment,
+                                    'user':email,
+                                    'message':'Notebook successfully reset'}
+                    except OSError:
+                        print('Oops! There was problem copying the new assignment')
+            else :
+                print('There is no assignment there, couldnt copy the assignment ')
+        else :
+            print('The path you have stated doesnot exists')
+        return json.dumps(response)
+
+
+
+
 class NotebookHandler(IPythonHandler):
     @web.authenticated
     def get(self, path):
@@ -282,6 +316,7 @@ class NotebookHandler(IPythonHandler):
 default_handlers = [
     (r"/notebooks%s" % path_regex, NotebookHandler),
     (r"/progressfuse", FuseProgressHandler),
-    (r"/submitfuse", FuseSubmitHandler)
+    (r"/submitfuse", FuseSubmitHandler),
+    (r"/resetAssignment",AssignmentResetHandler)
 ]
 
