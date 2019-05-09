@@ -136,12 +136,12 @@ class FuseProgressHandler(tornado.web.RequestHandler):
         return response.text
 
 def get_accesstoken(self):
-    url = 'https://accounts-fuse-ai-stage.auth0.com/oauth/token'
+    url = 'https://accounts.fuse.ai/oauth/token'
     data = {
             'grant_type': 'client_credentials',
-            'client_id': 'Ad1njz0gloC7SiPHY7gdnk23AUu512M2',
-            'client_secret': 'kY9YEC5xuNujuGnIY2bIBq5Z_IFo3OSQ_OHaUwbGJvwuhfC5XiD7Y06Bb7jF734_',
-            'audience': 'https://fuse-ai-api-stage.fusemachines.com/',
+            'client_id': 'iNu1yBSAjEyd0XpdDVcdEKBJaSMUZLP5',
+            'client_secret': 'FClp1xmrfooXDFCY2-OFOFM_fsOkSt6ysiTymOR1gnpkdK9JfMHOWw5dart_HPNt',
+            'audience': 'https://fuse-ai-prod-api.fusemachines.com/',
         }
 
     try:
